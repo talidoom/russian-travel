@@ -1,3 +1,10 @@
 .place__paragraphs {
   align-self: flex-start;
+  width: 484px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place__paragraphs {
+    width: 456px;
+  }
 }

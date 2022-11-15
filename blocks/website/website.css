@@ -1,3 +1,9 @@
 .website {
+  width: 484px;
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .website {
+    width: 456px;
+  }
 }

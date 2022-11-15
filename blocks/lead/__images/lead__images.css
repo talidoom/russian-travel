@@ -4,3 +4,10 @@
   height: 615px;
   margin: 0 auto;
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__images {
+    width: 928px;
+    height: 580px;
+  }
+}
+

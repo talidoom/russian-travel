@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
   gap: 48px 40px;
   margin-bottom: 80px;
   align-items: flex-end;
@@ -8,3 +8,9 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+

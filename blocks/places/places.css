@@ -1,5 +1,9 @@
 .places {
   width: 984px;
-  display: flex;
-  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places {
+    width: 928px;
+  }
 }

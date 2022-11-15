@@ -4,3 +4,10 @@
   width: 984px;
   height: 615px;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__pic-photo {
+    width: 928px;
+    height: 580px;
+  }
+}
