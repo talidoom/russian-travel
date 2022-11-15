@@ -17,6 +17,7 @@
   position: absolute;
   z-index: 1;
   background: rgba(42, 44, 47, 0.3);
+  transition: .3s ease-in-out;
 }
 .cover:hover:before {
   content: "";

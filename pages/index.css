@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/inter.css);
+@import url(../vendor/fonts/inter.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/margin-m/margin-m.css);
 
@@ -46,6 +46,6 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-* {
+/* * {
   outline: 1px solid blue;
-}
+} */
