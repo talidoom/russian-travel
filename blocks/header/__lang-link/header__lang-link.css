@@ -8,7 +8,7 @@
 .header__lang-link:hover {
   opacity: 80%;
 }
-.header__lang-link:focus {
+.header__lang-link:active {
   text-decoration: underline;
 }
 .header__lang-link:first-of-type {
