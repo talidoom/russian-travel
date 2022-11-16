@@ -7,10 +7,3 @@
   line-height: 58px;
   text-align: left;
 }
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .intro__title {
-    width: 928px;
-  }
-}
-
