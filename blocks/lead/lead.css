@@ -7,3 +7,15 @@
     width: 928px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 320px;
+  }
+}

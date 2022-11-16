@@ -7,3 +7,15 @@
     width: 928px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 320px;
+  }
+}

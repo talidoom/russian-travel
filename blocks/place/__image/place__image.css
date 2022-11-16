@@ -3,11 +3,26 @@
   height: 460px;
   object-fit: cover;
   object-position: center;
+  align-self: flex-start;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place__image {
     width: 440px;
     height: 440px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
   }
 }

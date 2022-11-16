@@ -1,3 +1,15 @@
 .margin-m {
   margin: 0 auto 92px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .margin-m {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .margin-m {
+    margin-bottom: 64px;
+  }
+}

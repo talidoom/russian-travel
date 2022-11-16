@@ -1,14 +1,28 @@
 .lead__pic-vector {
   position: absolute;
-  width: 937px;
-  height: 263px;
-  top: 128px;
+  width: 95%;
+  top: 90px;
   left: 23px;
   z-index: 2;
 }
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__pic-vector {
-    width: 884px;
-    height: 248px;
+    top: 85px;
+    left: 21px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__pic-vector {
+    top: 71px;
+    left: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__pic-vector {
+    top: 29px;
+    left: 8px;
   }
 }
