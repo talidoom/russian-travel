@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter.css);
+@import url(../fonts/inter/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/margin-m/margin-m.css);
 @import url(../blocks/transition-width/transition-width.css);
