@@ -1,27 +1,24 @@
 .lead__images {
   position: relative;
-  width: 984px;
+  width: 100%;
   height: 637px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__images {
-    width: 928px;
     height: 602px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__images {
-    width: 768px;
     height: 502px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__images {
-    width: 320px;
     height: 222px;
   }
 }
