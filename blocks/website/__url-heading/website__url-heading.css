@@ -6,3 +6,11 @@
   line-height: 20px;
   color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+  .website__url-heading {
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 320px;
+  }
+}

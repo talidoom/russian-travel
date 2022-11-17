@@ -1,22 +1,11 @@
 .place__paragraphs {
   align-self: flex-start;
-  width: 484px;
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .place__paragraphs {
-    width: 456px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .place__paragraphs {
-    width: 352px;
-  }
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraphs {
     width: 288px;
+    margin: 0 16px;
   }
 }
