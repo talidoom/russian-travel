@@ -9,7 +9,7 @@
   opacity: 80%;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .website__link {
     width: 456px;
   }
