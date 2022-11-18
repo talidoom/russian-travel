@@ -1,21 +1,21 @@
 .website {
-  width: 484px;
+  max-width: 484px;
 }
 
 @media screen and (max-width: 1279px) {
   .website {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .website {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .website {
-    width: 288px;
+    max-width: 288px;
   }
 }
