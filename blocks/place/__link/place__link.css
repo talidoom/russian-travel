@@ -1,25 +1,18 @@
-.website__link {
+.place__link {
   width: 484px;
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
   transition: opacity 0.3s;
 }
-.website__link:hover {
+.place__link:hover {
   opacity: 80%;
 }
 
-@media screen and (max-width: 1279px) {
-  .website__link {
-    width: 456px;
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .website__link {
+  .place__link {
     box-sizing: border-box;
     padding: 0 16px;
-    width: 320px;
   }
 }
 
