@@ -1,5 +1,5 @@
 .photo-grid {
-  width: 1184px;
+  max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min-content, 284px));
   grid-template-rows: repeat(min-content, 213px);
@@ -8,26 +8,26 @@
 
 @media screen and (max-width: 1279px) {
   .photo-grid {
-    width: 928px;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
+    max-width: 928px;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(min-content, 225px);
     gap: 14px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
-    width: 720px;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 352px));
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(min-content, 264px);
     gap: 16px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
-    width: 288px;
-    grid-template-columns: repeat(auto-fit, minmax(min-content, 288px));
+    max-width: 288px;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(min-content, 216px);
     gap: 12px;
   }

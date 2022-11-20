@@ -1,0 +1,15 @@
+.space-bottom {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .space-bottom {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .space-bottom {
+    margin-bottom: 64px;
+  }
+}

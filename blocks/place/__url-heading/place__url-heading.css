@@ -5,9 +5,10 @@
   font-weight: 400;
   line-height: 20px;
   color: #AAAAAA;
+  letter-spacing: 2px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__url-heading {
     box-sizing: border-box;
     padding: 0 16px;

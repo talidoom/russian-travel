@@ -9,7 +9,7 @@
   opacity: 80%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__link {
     box-sizing: border-box;
     padding: 0 16px;

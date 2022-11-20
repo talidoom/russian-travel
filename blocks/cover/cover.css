@@ -1,64 +1,28 @@
 .cover {
-  max-width: 1184px;
-  height: 740px;
-  background: url(../../images/__background.png);
-  background-size: cover;
-  background-position: center center;
+  width: calc(100% - 2 * 48px);
+  padding: 0;
+  background: url(../../images/cover/__background-xl.jpg) no-repeat center center / cover;
   text-decoration: none;
-}
-
-.cover__link {
-  position: relative;
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  z-index: 1;
-  text-align: center;
 }
-
-.cover__link::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(42, 44, 47, 0.2);
-  transition: .3s ease-in-out;
-  z-index: -1;
-}
-
-.cover__link:hover::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(42, 44, 47, 0.5);
-}
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .cover {
-    max-width: 1024px;
-    height: 640px;
+    width: 100%;
+    background: url(../../images/cover/__background-l.jpg) no-repeat center center / cover;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover {
-    max-width: 768px;
-    height: 480px;
+    width: 100%;
+    background: url(../../images/cover/__background-m.jpg) no-repeat center center / cover;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover {
-    max-width: 320px;
-    height: 200px;
+    width: 100%;
+    background: url(../../images/cover/__background-s.jpg) no-repeat center center / cover;
   }
 }
